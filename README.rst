@@ -57,13 +57,14 @@ to install Docker and lean about related useful topics.
 Add User
 ========
 
-Add password and the rest can be blanks (press return multiple times).
+Add password when asked; the remaining inputs can be empty (press return multiple times).
+It is fine to use a simple password as you should change it after cloning the template.
 
 .. code:: bash
 
   adduser ve
 
-Add to sudo group
+Add to groups.
 
 .. code:: bash
 
@@ -73,7 +74,7 @@ Add to sudo group
 
   adduser ve docker
 
-Verify...
+Verify.
 
 .. code:: bash
 
