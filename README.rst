@@ -1,6 +1,6 @@
-#############################
-  Run Docker in Proxmox LXC
-#############################
+#######################################
+  Run Docker in Proxmox LXC Container
+#######################################
 
 ****************
   Introduction
@@ -8,10 +8,11 @@
 
 Going forward I will shorten 'Proxmox Virtual Environment' to 'PVE' or 'pve'.
 
-https://www.proxmox.com/
+I will describe using Ubuntu as my prefered Debian has a nagging issue 
+where the web console is not showing content.
 
 *******************************
-  Create a container template
+  Create a Container Template
 *******************************
 
 Select (download) latest Ubuntu LTS (2404.2-2).
@@ -53,7 +54,7 @@ to install Docker and lean about related useful topics.
 
   docker --version
 
-Add user
+Add User
 ========
 
 Add password and the rest can be blanks (press return multiple times).
@@ -84,11 +85,16 @@ Login as :code:`ve` (or use :code:`su`):
 
 .. code:: bash
 
+Lock Down root
+==============
+
 Disable (lock) root account 
 
 .. code:: bash
 
   sudo passwd -l root
 
-You will now have to login as :code:`ve` and use :code:`sudo`.
+.. note::
+
+  You will now have to login as :code:`ve` and use :code:`sudo`.
 
