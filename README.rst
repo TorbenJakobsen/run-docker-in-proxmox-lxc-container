@@ -36,23 +36,23 @@ to install Docker and lean about related useful topics.
 
 #. Install :code:`curl`
 
-.. code:: bash
+  .. code:: bash
 
-  apt install curl
+    apt install curl
 
 #. Install :code:`docker`
 
-.. code:: bash
+  .. code:: bash
 
-  curl -sSL https://get.docker.com | sh
+    curl -sSL https://get.docker.com | sh
 
 #. Verify
 
-.. code:: bash
+  .. code:: bash
 
-  systemctl status docker
+    systemctl status docker
 
-  docker --version
+    docker --version
 
 Add User
 ========
