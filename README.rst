@@ -98,3 +98,15 @@ Disable (lock) root account
 
   You will now have to login as :code:`ve` and use :code:`sudo`.
 
+Minimize Size
+=============
+
+.. code:: bash
+
+  sudo apt clean
+  sudo apt autoremove 
+
+Make into a Template
+====================
+
+  ...
