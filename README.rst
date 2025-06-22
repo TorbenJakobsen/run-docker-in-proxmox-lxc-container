@@ -8,8 +8,7 @@
 
 Going forward I will shorten 'Proxmox Virtual Environment' to 'PVE' or 'pve'.
 
-| I will describe the process using Ubuntu. 
-| My prefered Debian has a nagging issue where the web console is not showing content.
+I will describe the process using Ubuntu.
 
 *******************************
   Create a Container Template
