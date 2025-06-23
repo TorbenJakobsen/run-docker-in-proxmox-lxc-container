@@ -56,6 +56,8 @@ to install Docker and lean about related useful topics.
 Add User
 ========
 
+DEBIAN
+
 1. Add password when asked; the remaining inputs can be empty (press return multiple times).
 It is fine to use a simple password as you should change it after cloning the template.
 
